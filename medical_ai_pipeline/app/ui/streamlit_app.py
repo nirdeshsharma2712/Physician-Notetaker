@@ -1,11 +1,10 @@
-app/ui/streamlit_app.py
 import sys
 from pathlib import Path
 import streamlit as st
 import json
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-sys.path.append(str(PROJECT_ROOT))
+ROOT_DIR = Path(__file__).resolve().parents[2]
+sys.path.append(str(ROOT_DIR))
 
 
 from app.pipeline import run_pipeline
