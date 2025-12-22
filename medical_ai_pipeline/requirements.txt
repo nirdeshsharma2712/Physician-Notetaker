@@ -9,3 +9,5 @@ torch
 transformers
 sentencepiece
 openai
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/en_core_sci_md-0.5.1.tar.gz
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/en_ner_bc5cdr_md-0.5.0.tar.gz
