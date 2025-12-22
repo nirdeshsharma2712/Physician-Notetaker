@@ -3,8 +3,12 @@ from pathlib import Path
 import streamlit as st
 import json
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-sys.path.append(str(PROJECT_ROOT))
+CURRENT_FILE = Path(__file__).resolve()
+
+for parent in CURRENT_FILE.parents:
+    if (parent / "app").exists():
+        sys.path.append(str(parent))
+        break
 
 
 from app.pipeline import run_pipeline
