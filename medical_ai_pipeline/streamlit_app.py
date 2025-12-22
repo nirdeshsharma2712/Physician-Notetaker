@@ -3,8 +3,6 @@ from pathlib import Path
 import streamlit as st
 import json
 
-
-
 from app.pipeline import run_pipeline
 
 st.set_page_config(
@@ -28,7 +26,8 @@ if st.button("🚀 Run Analysis"):
         st.warning("Please enter a medical conversation.")
     else:
 
-        data_path = PROJECT_ROOT / "data" / "raw_transcripts" / "sample.txt"
+        data_path = Path("data/raw_transcripts/sample.txt")
+        data_path.parent.mkdir(parents=True, exist_ok=True)
         data_path.write_text(conversation, encoding="utf-8")
 
         with st.spinner("Running medical AI pipeline..."):
