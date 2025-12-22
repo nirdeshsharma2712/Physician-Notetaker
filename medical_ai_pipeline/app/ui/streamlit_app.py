@@ -3,13 +3,9 @@ from pathlib import Path
 import streamlit as st
 import json
 
-CURRENT_FILE = Path(__file__).resolve()
-
-for parent in CURRENT_FILE.parents:
-    if (parent / "app").exists():
-        sys.path.append(str(parent))
-        break
-
+print("PYTHON PATH:")
+for p in sys.path:
+    print(p)
 
 from app.pipeline import run_pipeline
 
