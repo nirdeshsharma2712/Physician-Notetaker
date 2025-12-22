@@ -1,1 +1,11 @@
-
+spacy==3.7.4
+scispacy==0.5.4
+transformers==4.41.2
+torch>=2.0.0
+pydantic==2.7.1
+python-dotenv==1.0.1
+streamlit
+torch
+transformers
+sentencepiece
+openai
