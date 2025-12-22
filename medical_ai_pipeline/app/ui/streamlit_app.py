@@ -3,8 +3,8 @@ from pathlib import Path
 import streamlit as st
 import json
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
-sys.path.append(str(ROOT_DIR))
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+sys.path.append(str(PROJECT_ROOT))
 
 
 from app.pipeline import run_pipeline
