@@ -1,4 +1,4 @@
-# 🩺 Medical AI Pipeline  - Live preview : [Here](https://physician-notetaker.streamlit.app/)
+# 🩺 Medical AI Pipeline  -  : [Live preview](https://physician-notetaker.streamlit.app/)
 
 ### End-to-End Medical NLP System for Transcription Analysis, Summarization & SOAP Notes
 
@@ -64,11 +64,15 @@ Example:
 
 ### 2️⃣ Run the Pipeline
 
-> - python app/pipeline.py
+<pre>
+  python app/pipeline.py
+</pre> 
 
 
 ## 💬 Running the Streamlit UI
-> - streamlit run app/ui/streamlit_app.py
+<pre>
+  streamlit run app/ui/streamlit_app.py
+</pre>
 
 
 ## 🧬 Core Features
@@ -87,8 +91,6 @@ Extracts the following entities:
 - Transformer-based models (BioBERT / DistilBERT)
 - Lightweight medical rule-based heuristics
 - Regex-based temporal & name extraction
-
----
 
 ### 2️⃣ Structured Medical Summary
 
