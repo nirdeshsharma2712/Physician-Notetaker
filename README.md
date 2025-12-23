@@ -54,3 +54,36 @@ Converts raw conversation into a clean, machine-readable JSON:
   "Current_Status": "Occasional pain",
   "Prognosis": "Improving"
 }
+
+## 🛠️ Installation (Step-by-Step)
+
+### ✅ Prerequisites
+
+- Python **3.9 – 3.11**
+- `pip`
+- Git
+
+---
+
+### 🔹 Step 1: Clone Repository
+
+```bash
+git clone https://github.com/<your-username>/medical_ai_pipeline.git
+cd medical_ai_pipeline
+
+Doctor: Hello, Ms. Jones. How are you feeling today?
+Patient: I had a car accident. My neck and back hurt for four weeks.
+Doctor: Did you receive treatment?
+Patient: Yes, physiotherapy sessions helped.
+
+
+---
+
+If you want next:
+- 🔖 **README badges**
+- 📄 **One-page project summary**
+- 🎯 **Interview-ready explanation**
+- 🧪 **Sample outputs section**
+
+Just tell me 👌
+
