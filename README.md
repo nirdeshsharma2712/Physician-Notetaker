@@ -19,12 +19,57 @@ This project is designed for **CPU-only environments**, making it ideal for **de
 ---
 
 ### 🔹 Step 1: Clone Repository
-```bash git clone https://github.com/<your-username>/medical_ai_pipeline.git ```
-```bash cd medical_ai_pipeline```
+<pre>
+  - git clone https://github.com/<your-username>/medical_ai_pipeline.git 
+  - cd medical_ai_pipeline
+</pre> 
 
 ### 🔹 Step 2: Create Virtual Environment
 
 ```bash python -m venv venv ```
+
+### 🔹 Step 3: Activate the Environment
+<pre>
+  Windows - venv\Scripts\activate
+  Linux / macOS - source venv/bin/activate
+</pre>
+
+### 🔹 Step 4: Install Dependencies
+<pre>
+  - pip install -r requirements.txt
+</pre>
+
+### 🔹 Step 5: Environment Variables (Optional)
+
+- Required only if using OpenAI or Gemini for SOAP note generation.
+  
+  > - Create a .env file in the project root:
+  > - OPENAI_API_KEY=your_openai_key_here
+  > - GEMINI_API_KEY=your_gemini_key_here
+
+
+## ▶️ Running the Pipeline (CLI)
+
+### 1️⃣ Add Conversation Transcript
+> - Place your conversation in:
+> - data/raw_transcripts/sample.txt
+
+Example:
+<pre> 
+  - Doctor: Hello, Ms. Jones. How are you feeling today?
+  - Patient: I had a car accident. My neck and back hurt for four weeks.
+  - Doctor: Did you receive treatment?
+  - Patient: Yes, physiotherapy sessions helped.
+</pre>
+
+### 2️⃣ Run the Pipeline
+
+> - python app/pipeline.py
+
+
+## 💬 Running the Streamlit UI
+> - streamlit run app/ui/streamlit_app.py
+
 
 ## 🧬 Core Features
 
