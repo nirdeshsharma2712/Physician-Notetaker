@@ -1,4 +1,5 @@
 # 🩺 Medical AI Pipeline  
+
 ### End-to-End Medical NLP System for Transcription Analysis, Summarization & SOAP Notes
 
 An end-to-end **Medical AI pipeline** that processes **doctor–patient conversations** and automatically generates structured clinical insights such as **medical entities, summaries, patient sentiment, intent, and SOAP notes**.
@@ -7,45 +8,23 @@ This project is designed for **CPU-only environments**, making it ideal for **de
 
 ---
 
-## 📌 Key Capabilities
-
-✅ Medical Entity Extraction  
-✅ Structured Medical Summarization  
-✅ Patient Sentiment & Intent Analysis  
-✅ SOAP Note Generation  
-✅ Interactive Streamlit Chat UI  
-✅ Modular, extensible architecture  
-✅ Deployment-ready (Streamlit Cloud)
-
----
-
-## 🧠 System Overview
-
-The pipeline takes raw doctor–patient conversations and produces:
-
-- 🧬 **Medical Entities** (Symptoms, Diagnosis, Treatment, Duration, Prognosis)
-- 📋 **Structured Medical Summary (JSON)**
-- 🧠 **Patient Sentiment & Intent**
-- 📝 **SOAP Notes (Subjective, Objective, Assessment, Plan)**
-- 💬 **Interactive Chat-based UI**
-
----
-
-
 ## 🛠️ Installation (Step-by-Step)
 
 ### ✅ Prerequisites
-- Python **3.9 – 3.11**
-- pip
-- Git
+
+> - Python **3.9 – 3.11**
+> - pip
+> - Git
 
 ---
 
 ### 🔹 Step 1: Clone Repository
-```bash
-git clone https://github.com/<your-username>/medical_ai_pipeline.git
-cd medical_ai_pipeline
+```bash git clone https://github.com/<your-username>/medical_ai_pipeline.git ```
+```bash cd medical_ai_pipeline```
 
+### 🔹 Step 2: Create Virtual Environment
+
+```bash python -m venv venv ```
 
 ## 🧬 Core Features
 
@@ -79,3 +58,29 @@ Converts raw conversations into a clean, structured JSON format.
   "Current_Status": "Occasional pain",
   "Prognosis": "Improving"
 }
+
+
+## 📌 Key Capabilities
+
+✅ Medical Entity Extraction  
+✅ Structured Medical Summarization  
+✅ Patient Sentiment & Intent Analysis  
+✅ SOAP Note Generation  
+✅ Interactive Streamlit Chat UI  
+✅ Modular, extensible architecture  
+✅ Deployment-ready (Streamlit Cloud)
+
+---
+
+## 🧠 System Overview
+
+The pipeline takes raw doctor–patient conversations and produces:
+
+- 🧬 **Medical Entities** (Symptoms, Diagnosis, Treatment, Duration, Prognosis)
+- 📋 **Structured Medical Summary (JSON)**
+- 🧠 **Patient Sentiment & Intent**
+- 📝 **SOAP Notes (Subjective, Objective, Assessment, Plan)**
+- 💬 **Interactive Chat-based UI**
+
+---
+
