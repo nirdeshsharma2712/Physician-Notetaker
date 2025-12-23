@@ -1,4 +1,4 @@
-# 🩺 Medical AI Pipeline  
+# 🩺 Medical AI Pipeline  - Live preview : [Here](https://physician-notetaker.streamlit.app/)
 
 ### End-to-End Medical NLP System for Transcription Analysis, Summarization & SOAP Notes
 
@@ -6,7 +6,6 @@ An end-to-end **Medical AI pipeline** that processes **doctor–patient conversa
 
 This project is designed for **CPU-only environments**, making it ideal for **demos, interviews, PoCs, and Streamlit Cloud deployment**.
 
----
 
 ## 🛠️ Installation (Step-by-Step)
 
@@ -16,7 +15,6 @@ This project is designed for **CPU-only environments**, making it ideal for **de
 > - pip
 > - Git
 
----
 
 ### 🔹 Step 1: Clone Repository
 <pre>
@@ -26,9 +24,12 @@ This project is designed for **CPU-only environments**, making it ideal for **de
 
 ### 🔹 Step 2: Create Virtual Environment
 
-```bash python -m venv venv ```
+<pre> 
+  - python -m venv venv
+</pre>
 
 ### 🔹 Step 3: Activate the Environment
+
 <pre>
   Windows - venv\Scripts\activate
   Linux / macOS - source venv/bin/activate
@@ -42,8 +43,7 @@ This project is designed for **CPU-only environments**, making it ideal for **de
 ### 🔹 Step 5: Environment Variables (Optional)
 
 - Required only if using OpenAI or Gemini for SOAP note generation.
-  
-  > - Create a .env file in the project root:
+- Create a .env file in the project root:
   > - OPENAI_API_KEY=your_openai_key_here
   > - GEMINI_API_KEY=your_gemini_key_here
 
@@ -51,7 +51,7 @@ This project is designed for **CPU-only environments**, making it ideal for **de
 ## ▶️ Running the Pipeline (CLI)
 
 ### 1️⃣ Add Conversation Transcript
-> - Place your conversation in:
+-  Place your conversation in:
 > - data/raw_transcripts/sample.txt
 
 Example:
@@ -103,29 +103,9 @@ Converts raw conversations into a clean, structured JSON format.
   "Current_Status": "Occasional pain",
   "Prognosis": "Improving"
 }
+```
 
-
-## 📌 Key Capabilities
-
-✅ Medical Entity Extraction  
-✅ Structured Medical Summarization  
-✅ Patient Sentiment & Intent Analysis  
-✅ SOAP Note Generation  
-✅ Interactive Streamlit Chat UI  
-✅ Modular, extensible architecture  
-✅ Deployment-ready (Streamlit Cloud)
-
----
-
-## 🧠 System Overview
-
-The pipeline takes raw doctor–patient conversations and produces:
-
-- 🧬 **Medical Entities** (Symptoms, Diagnosis, Treatment, Duration, Prognosis)
-- 📋 **Structured Medical Summary (JSON)**
-- 🧠 **Patient Sentiment & Intent**
-- 📝 **SOAP Notes (Subjective, Objective, Assessment, Plan)**
-- 💬 **Interactive Chat-based UI**
-
----
+## 🤝 Contributions
+- Contributions, suggestions, and improvements are welcome.
+- Feel free to open an issue or submit a pull request.
 
