@@ -31,6 +31,22 @@ The pipeline takes raw doctor–patient conversations and produces:
 
 ---
 
+
+## 🛠️ Installation (Step-by-Step)
+
+### ✅ Prerequisites
+- Python **3.9 – 3.11**
+- pip
+- Git
+
+---
+
+### 🔹 Step 1: Clone Repository
+```bash
+git clone https://github.com/<your-username>/medical_ai_pipeline.git
+cd medical_ai_pipeline
+
+
 ## 🧬 Core Features
 
 ### 1️⃣ Medical NLP (NER)
