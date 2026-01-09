@@ -65,7 +65,7 @@ Example:
 ### 2️⃣ Run the Pipeline
 
 <pre>
-  python app/pipeline.py
+  python -m app.pipeline
 </pre> 
 
 
